@@ -8,6 +8,7 @@ import './styles/app.css';
 ReactDOM.render(
   <FirebaseContext.Provider value={{ firebase, FieldValue }}>
     <App />
+    {/* <div>Hello World</div> */}
   </FirebaseContext.Provider>,
   document.getElementById('root')
 );

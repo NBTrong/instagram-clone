@@ -1,0 +1,96 @@
+
+01. Giới thiệu chung và mục tiêu của khóa học
+
+02. Giới thiệu về NodeJs
+
+03. Vấn đề rào cản khi học NodeJs
+
+04. Môi trường làm việc và giao diện dòng lệnh
+
+05. Khái niệm server và client
+
+06. Hoạt động và nhiệm vụ của một máy chủ JavaScript
+
+07. Ngôn ngữ lập trình C++
+
+08. Mã nguồn Javascript
+
+09. Viết ứng dụng NodeJS đầu tiên
+
+10. Cài đặt và chạy một số phần Javascript trong NodeJS
+
+11. Module và các khái niệm liên quan
+
+12. Khai báo và sử dụng hàm trong JavaScript
+
+13. Tự xây dựng được một Module
+
+14. Javascript: Lập trình hướng đối tượng và mẫu khai báo Object Literal
+
+15. Javascript: Hàm khởi tạo và sự kế thừa prototype
+
+16. Javascript: Biến tham trị và biến tham chiếu
+
+17. Javascript: Thực thi hàm ngay khi được khởi tạo
+
+18. Các Module trong NodeJS thực sự hoạt động như thế nào?
+
+19. Javascript: Thao tác với dữ liệu JSON
+
+20. Tìm hiểu thêm sâu về Require
+
+21. Các kỹ thuật khai báo và sử dụng Module
+
+22. Exports và module.exports hoạt động như thế nào?
+
+23. Sử dụng module dựng sẵn của NodeJS
+
+24. Module và ECMAScript 2015 (ES6)
+
+25. Web Server Checklist
+
+26. Khái niệm Events
+
+27. Javascript: Object Properties, First Class Function, và Arrays
+
+28. Event Emitter - Phần 1
+
+29. Event Emitter - Phần 2
+
+30. Javascript: Object.create và Prototypes
+
+31. Kế thừa từ Events Emitter - Phần 1
+
+32. NodeJS: ES6 Template Strings
+
+33. Javascript: .call và .apply
+
+34. Kế thừa Event Emitter - Phần 2
+
+35. NodeJS: ES6 Class
+
+36. Kế thừa Event Emitter - Phần 3
+
+37. Javascript: Javascript là đồng bộ
+
+38. Hàm gọi lại callback
+
+39. Kiến trúc không đồng bộ: libuv, Event Loop và Non-Blocking
+
+40. Khái niệm về Stream và Buffer
+
+41. Dữ liệu nhị phân, bộ ký tự và bảng mã
+
+42. Xử lý dữ liệu Buffer
+
+43. ES6 Typed Arrays
+
+44. Xử lý Callback trong Javascript
+
+45. Làm việc với File trong NodeJS
+
+46. Làm việc với Stream
+
+47. Kỹ thuật Pipe
+
+48. Sử dụng kỹ thuật Pipe

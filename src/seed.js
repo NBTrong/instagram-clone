@@ -3,9 +3,18 @@
 export function seedDatabase(firebase) {
   const users = [
     {
+      userId: 'NvPY9M9MzFTARQ6M816YAzDJxZ234f',
+      username: 'batrong',
+      fullName: 'Nguyen Ba Trong',
+      emailAddress: 'trong.nb121001@gmail.com',
+      following: ['2'],
+      followers: ['2', '3', '4'],
+      dateCreated: Date.now()
+    },
+    {
       userId: 'NvPY9M9MzFTARQ6M816YAzDJxZ72',
-      username: 'karl',
-      fullName: 'Karl Hadwen',
+      username: 'tung',
+      fullName: 'Nguyen Duc Tung',
       emailAddress: 'karlhadwen@gmail.com',
       following: ['2'],
       followers: ['2', '3', '4'],
@@ -13,8 +22,8 @@ export function seedDatabase(firebase) {
     },
     {
       userId: '2',
-      username: 'raphael',
-      fullName: 'Raffaello Sanzio da Urbino',
+      username: 'Hoang Anh',
+      fullName: 'Nguyen Hoang Anh',
       emailAddress: 'raphael@sanzio.com',
       following: [],
       followers: ['NvPY9M9MzFTARQ6M816YAzDJxZ72'],
@@ -23,7 +32,7 @@ export function seedDatabase(firebase) {
     {
       userId: '3',
       username: 'dali',
-      fullName: 'Salvador Dalí',
+      fullName: 'Nguyen Thi Khanh Hoa',
       emailAddress: 'salvador@dali.com',
       following: [],
       followers: ['NvPY9M9MzFTARQ6M816YAzDJxZ72'],
@@ -42,6 +51,7 @@ export function seedDatabase(firebase) {
 
   // eslint-disable-next-line prefer-const
   for (let k = 0; k < users.length; k++) {
+    // firebase.firestore().collection('users').add(users[k]);
     firebase.firestore().collection('users').add(users[k]);
   }
 
